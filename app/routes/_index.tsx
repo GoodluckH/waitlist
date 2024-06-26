@@ -27,10 +27,13 @@ export default function Index() {
         borderWidth={2}
       >
         <WordPullUp
-          className="text-7xl font-bold tracking-[-0.02em] mt-10"
+          className="text-7xl font-bold tracking-[-0.02em] mt-10 text-white"
           words="im building"
         />
-        <BlurIn word="a game that to help you build wealth" className="mt-5" />
+        <BlurIn
+          word="a game that to help you build wealth"
+          className="mt-5 text-white"
+        />
         <div className="fixed bottom-10 w-full flex flex-row justify-center items-center">
           <AnimatedList delay={2000} className="-ml-16">
             {notifications.map((item, idx) => (
